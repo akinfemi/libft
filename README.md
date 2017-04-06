@@ -102,7 +102,7 @@ typedef struct      s_btree
 | ft_strsplitlist | t_list  \*ft_strsplitlist(char \*str, char delim) | Split strings and returns as a linkedlist|
 | ft_lstappend | void	  ft_lstappend(t_list \*\*alst, t_list \*nw) | appends a new linked list node to the last node |
 | btree_create_node | t_btree		\*btree_create_node(int item) | Creates a BST node
-| btree_add_node | void   btree_add_node(t_btree \*\*root, t_btree \*node) | Determines the right location to add a node and adds it.
+| btree_add_node | void   btree_add_node(t_btree \*\*root, t_btree \*node) | Create a BST node by node |
 | btree_apply_inorder | btree_apply_inorder(t_btree \*root, void (\*applyf)(int)) | Inorder traversal of BST|
 | btree_apply_postorder | btree_apply_postorder(t_btree \*root, void (\*applyf)(int)) | Postorder traversal of BST|
 | btree_apply_preorder | tree_apply_preorder(t_btree \*root, void (\*applyf)(int)) | Preorder traversal of BST |
