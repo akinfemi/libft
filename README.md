@@ -1,7 +1,7 @@
 # libft
 Personal C Library
 
-### LIBC Functions:
+### Functions:
 
 | Function Name | Prototype     | Utility  |
 | ------------- |---------------| -------- |
@@ -90,7 +90,7 @@ typedef struct  s_list
 The structure for the Binary Search Trees is shown below. 
 
 ```C
-typedef struct  s_btree
+typedef struct      s_btree
 {
   int               item;        /* Key/Value */
   struct s_btree    *left;       /* Left Child */
