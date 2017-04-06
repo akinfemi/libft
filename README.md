@@ -106,3 +106,5 @@ typedef struct      s_btree
 | btree_apply_inorder | btree_apply_inorder(t_btree \*root, void (\*applyf)(int)) | Inorder traversal of BST|
 | btree_apply_postorder | btree_apply_postorder(t_btree \*root, void (\*applyf)(int)) | Postorder traversal of BST|
 | btree_apply_preorder | tree_apply_preorder(t_btree \*root, void (\*applyf)(int)) | Preorder traversal of BST |
+
+### MD Credit: Matt Hurd
