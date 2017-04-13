@@ -17,9 +17,7 @@ t_list		*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem))
 	t_list	*node;
 	t_list	*res;
 	t_list	*tmp;
-	int		i;
 
-	i = 0;
 	if (!lst)
 		return (lst);
 	node = lst;

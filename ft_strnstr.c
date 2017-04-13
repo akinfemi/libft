@@ -27,11 +27,9 @@ static	int	contains(const char *big, const char *small, size_t n)
 char		*ft_strnstr(const char *big, const char *little, size_t n)
 {
 	size_t	i;
-	size_t	j;
 	char	*ptr;
 
 	i = 0;
-	j = 0;
 	ptr = NULL;
 	if (*little == '\0')
 		return ((char *)big);
