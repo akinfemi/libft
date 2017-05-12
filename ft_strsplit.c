@@ -6,7 +6,7 @@
 /*   By: aakin-al <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/08 20:59:15 by aakin-al          #+#    #+#             */
-/*   Updated: 2017/03/08 23:47:07 by aakin-al         ###   ########.fr       */
+/*   Updated: 2017/05/12 12:07:23 by aakin-al         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,10 +41,10 @@ static char		*next_word(char const **st, char delim)
 	str = *st;
 	while (*str == delim)
 		str++;
-	while (str[i] != delim)
+	while (str[i] != delim && str[i])
 		i++;
 	word = (char *)malloc(sizeof(char) * i + 1);
-	while (*str != delim)
+	while (*str != delim && str[i])
 	{
 		word[j] = *str;
 		j++;
