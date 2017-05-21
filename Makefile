@@ -6,7 +6,7 @@
 #    By: aakin-al <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/03/01 21:47:29 by aakin-al          #+#    #+#              #
-#    Updated: 2017/04/06 01:35:39 by aakin-al         ###   ########.fr        #
+#    Updated: 2017/05/21 01:08:09 by aakin-al         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,7 +76,8 @@ SOURCE = ft_memset.c\
 		 btree_apply_postorder.c\
 		 btree_apply_inorder.c\
 		 btree_create_node.c\
-		 btree_add_node.c
+		 btree_add_node.c\
+		 get_next_line.c
 
 O_FILES = $(SOURCE:.c=.o)
 
